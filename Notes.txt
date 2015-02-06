@@ -1,0 +1,15 @@
+Should i save the authentication in session or ask the user each refresh?
+Does the emails contain multiple links?
+Can a user click multiple links? The XML file tracks only one <url>.
+Should i count multiple clicks from a user (for a same link)?
+
+
+I will assume that each campaign email can have multiple links, each link can be clicked by the user 
+and they are all tracked.
+
+The architecture im using here, can be used with WebForms, MVC, WebAPI. I scafolded a simple MVC application.
+All logic and even the models are separated.
+Given more time and information i believe the abstraction can be increased.
+
+For the parsing the XML i can use Serialize/Deserialize library to map the xml to my models. 
+I have to research this tho.
